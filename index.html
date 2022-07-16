@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link
+            rel="icon"
+            type="image/png"
+            href="./images/favicon.png"
+            sizes="16x16"
+        >
+        <!-- Google Fonts CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" 
+            rel="stylesheet"
+        >
+        <!-- Font Awesome CDN -->
+        <link 
+            rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"
+        >
+        <!-- CSS External File -->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <!-- External JS file -->
+        <script 
+            type="text/javascript" 
+            src="./assignment-mathematical-shapes/mathematicalShapes.js"
+            defer
+        >
+        </script>
+        <script 
+            type="text/javascript" 
+            src="./assignment-conditional-statements-and-loops/statementsAndLoops.js"
+            defer
+        >
+        </script>
+        <title>JS Assignments</title>
+    </head>
+    <body>
+        <section class="hero-img-cover">
+            <article class="container jumbotron">
+                <h1>Welcome to JS Assignments <i class="fa-brands fa-js-square"></i></h1>
+                <!-- Form for numbers comparison -->
+                <form>
+                    <h2>Compare Numbers</h2>
+                    <input id="firstNumber" type="number"  value="1">
+                    <input id="secondNumber" type="number"  value="2">
+                    <button 
+                        type="button" 
+                        onclick="numberComparison()"
+                        class="btn-dark">Check Numbers</button>
+                </form>
+                <p id="yourNumberComparison"></p>
+                <!-- Form for check if a number is an even or and odd -->
+                <form>
+                    <h2>Is Even or Odd?</h2>
+                    <input 
+                        id="evenOrOdd" 
+                        type="number" 
+                        min="1" 
+                        value="1" 
+                        onkeyup="if(this.value<0){this.value= this.value * -1}">
+                    <button 
+                        type="button" 
+                        onclick="isEvenOrOdd()"
+                        class="btn-dark">Check Number</button>
+                </form>
+                <p id="yourAnswer"></p>
+            </article>
+        </section>
+    </body>
+</html>
