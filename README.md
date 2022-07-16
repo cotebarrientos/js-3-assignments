@@ -5,7 +5,7 @@
 This repository contains 3 assignments about JavaScript for the **Frontend Development industry training program** taught
 by [**Brainnest**](https://www.brainnest.consulting/).
 
-You can visit this website by clicking [here]().
+You can visit this website by clicking [here](https://cotebarrientos.github.io/js-3-assignments/).
 
 ---
 
@@ -30,7 +30,7 @@ You can visit this website by clicking [here]().
 
 ### Clone Project from GitHub Website 📁
 
-1. Follow this link to the [Project GitHub repository]().
+1. Follow this link to the [Project GitHub repository](https://github.com/cotebarrientos/js-3-assignments).
 2. Scroll to the top of this repository and click on the "clone or download button".
 3. Decide whether you want to clone the project using HTTPS or an SSH key and do the following:
    - HTTPS: click on the checklist icon to the right of the URL.
